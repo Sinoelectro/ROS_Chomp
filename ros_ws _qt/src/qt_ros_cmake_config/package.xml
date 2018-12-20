@@ -1,0 +1,23 @@
+
+<package>
+    
+    <name>qt_ros</name>
+    <version>0.0.0</version>
+    <description>
+        bare bones ros package with a QMainWindow that does not rely on rqt.
+    </description>
+    <maintainer email="floydwin7@gmail.com">mtbrobotanist</maintainer>
+    <license>BSD</license>
+
+    <url>http://ros.org/wiki/foo_core</url>
+    <author>mtbrobotanist</author>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <build_depend>roscpp</build_depend>
+    <build_depend>geometry_msgs</build_depend>
+
+    <run_depend>roscpp</run_depend>
+    <run_depend>geometry_msgs</run_depend>
+
+</package>
