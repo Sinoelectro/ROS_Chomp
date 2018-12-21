@@ -33,7 +33,7 @@
  *********************************************************************/
 
 /* Author: Mrinal Kalakrishnan */
-
+//我在这里加了一条注释
 #include <chomp_motion_planner/chomp_cost.h>
 #include <chomp_motion_planner/chomp_utils.h>
 #include <eigen3/Eigen/LU>
