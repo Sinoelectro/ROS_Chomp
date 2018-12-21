@@ -403,9 +403,7 @@ bool ChompOptimizer::optimize()//优化流程
       {
         num_collision_free_iterations_ = 0;
         ROS_INFO("Chomp Got mesh to mesh safety at iter %d. Breaking out early.", iteration_);
-        is_collisio
-
-                n_free_ = true;
+        is_collision_free_ = true;
         iteration_++;
         should_break_out = true;
       }
